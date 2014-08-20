@@ -1482,8 +1482,8 @@ vjs.Player.prototype.listenForUserActivity = function(){
 
   // Listen for keyboard navigation
   // Shouldn't need to use inProgress interval because of key repeat
-  this.on('keydown', onActivity);
-  this.on('keyup', onActivity);
+  //this.on('keydown', onActivity);
+  //this.on('keyup', onActivity);
 
   // Run an interval every 250 milliseconds instead of stuffing everything into
   // the mousemove/touchmove function itself, to prevent performance degradation.
